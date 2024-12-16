@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('Styles/header.css');
+@import url('Styles/consultas.css');
+@import url('Styles/menu.css');
+@import url('Styles/Barra lateral.css');
+
+:root {
+    --branco-padrão: rgba(236, 236, 236, 0.881);
+    --fonte-padrão: "montserrat", sans-serif;
+    --cinza-escuro: rgba(70, 70, 70, 1);
+    --cinza-claro: rgba(163, 163, 163, 1);
+    --cinza-botao: rgba(246, 246, 246, 1);
+    --branco-blocos: rgba(255, 255, 255, 0.699);
+    --laranja-botao: rgba(255, 176, 80, 1);
+    --azul-botao: rgba(72, 148, 255, 1);
+    --branco-rodape:rgba(255, 255, 255, 1);
+}
+
+body {
+    height: 100%;
+    width: 548px;
+    overflow-x: hidden;
+    background-color: var(--branco-padrão);
+}

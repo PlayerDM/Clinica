@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+
+.conteudo {
+    flex: 1;
+    padding: 20px;
+}
+
+.barra__lateral {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: #f7f7f7;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    display: none; 
+    flex-direction: column;
+    padding: 20px 0;
+    z-index: 1000;
+}
+
+.consultas__barra {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.barra__opcao {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+}
+
+.barra__opcao:hover {
+    background-color: #e6e6e6;
+}
+
+.imagem__opcao {
+    margin-right: 10px;
+}
+
+@media screen and (min-width: 1164px) {
+    .barra__lateral {
+        display: flex;
+    }
+}

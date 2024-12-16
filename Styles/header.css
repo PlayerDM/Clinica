@@ -1,0 +1,75 @@
+.usuario {
+    display: flex;
+    align-items: center;
+    width: 22.5em;
+    height: 9em;
+}
+
+.foto__usuario {
+    width: 6em;
+    border-radius: 50%;
+    padding: 3.0625em 1em;
+}
+
+.perfil__mensagem {
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil__titulo, .perfil__texto {
+    font-family: var(--fonte-padrão);
+}
+
+.perfil__titulo {
+    margin: 0.25em;
+    margin-left: 0.25em;
+    font-size: 1.375em;
+    font-weight: 700;
+    color: var(--cinza-escuro);
+}
+
+.perfil__texto {
+    margin: 0.5em;
+    font-size: 0.875em;
+    font-weight: 400;
+    color: var(--cinza-claro);
+}
+
+@media screen and (min-width: 768px) {
+    .usuario {
+        align-items: center;
+        width: 13.9375em;
+    }
+
+    .foto__usuario {
+        width: 3.5625em;
+    }
+
+    .perfil__titulo {
+        width: 7.1875em;
+    }
+
+    .perfil__texto {
+        width: 10.75em;
+    }
+}
+
+@media screen and (min-width: 1164px) {
+    .usuario {
+        width: 19.0625em;
+    }
+
+    .foto__usuario {
+        width: 6em;
+    }
+
+    .perfil__titulo {
+        width: 19.0625em;
+        font-size: 1.9375em;
+    }
+
+    .perfil__texto {
+        width: 12.0625em;
+        font-size: 1.125em;
+    }
+}
